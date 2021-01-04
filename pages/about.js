@@ -1,15 +1,16 @@
-// import styles from '../styles/Home.module.css';
-import logo from '../assets/lgo.jpeg';
+import React from 'react';
 import Layout from '../components/Layout';
 
-export default function Home() {
+function about() {
 	return (
 		<div>
 			<Layout>
 				<section className="h-screen bg-gray-100">
-					<h1>Home</h1>
+					<h1>About</h1>
 				</section>
 			</Layout>
 		</div>
 	);
 }
+
+export default about;
